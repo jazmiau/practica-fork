@@ -1,0 +1,50 @@
+/*accediendo a div por medio de una class*/
+.azul{
+  background-color: pink;
+}
+h1{
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+div{
+  background-color: #F781BE;
+}
+/*seleccionando li del medio*/
+li:first-of-type + li{
+  color: white;
+}
+/*cambiando color primer li por medio de un id*/
+#celeste{
+  color: lightblue;
+}
+/*cambiando color ultimo li*/
+li:last-child{
+  color: lightgreen;
+}
+.caja{
+  background-color: purple;
+  padding: 1em;
+  border: 1em groove grey;
+}
+.caja2{
+  background-color: lightgreen;
+  padding: 1em;
+  margin-top: 1em;
+  border: 1em dashed pink;
+  text-align: center;
+  visibility: hidden; /*escondiendo caja2, aún se muestra su espacio vacío*/
+}
+.caja3{
+  background-color: lightpink;
+  padding: 1em;
+  margin-top: 1em;
+  border: 1em dashed pink;
+  text-align: center;
+}
+body{ /*sacándole el margen por defecto que trae el body*/
+  margin: 0;
+}
